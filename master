@@ -1,0 +1,19 @@
+# SwapWithoutThirdVariable
+50th program on c 
+#include<stdio.h>
+int main ()
+{
+int i,j;
+printf("enter the first number ");
+scanf("%d",&i);
+printf("enter the second number");
+scanf("%d",&j);
+i=i+j;
+j=i-j;
+i=i-j;
+printf("The swaped value of first number is %d",i);
+printf("The swaped value of the second number is %d,j);
+return(0);
+}
+
+
